@@ -20,7 +20,6 @@ c) Any client can choose to leave or the manager can kick any active users. If t
 1. Ensure that [Java](https://www.java.com/en/), [JDK](https://www.oracle.com/java/technologies/downloads/) and [Maven](https://maven.apache.org/download.cgi) has been installed in the local machine.
 2. Pull this repository.
 3. Run the program (select one of two methods below):
-<hr>
 
 ### Method 1: Use the following commands in your terminal.
 
@@ -46,7 +45,7 @@ c) Any client can choose to leave or the manager can kick any active users. If t
     java -cp target/client-user-jar-with-dependencies.jar client.JoinWhiteBoard <serverIPAddress> <serverPort> <username>
 
 <em>Optional arguments can be included upon launch to instantly initiate connection with Server. Otherwise, the values can be set via the GUI before connection.</em>
-<hr>
+
 
 ### Method 2: Generate jar files and run by double clicking on jar files.
 
